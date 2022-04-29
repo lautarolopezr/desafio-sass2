@@ -102,18 +102,18 @@ body {
 }
 
 @media screen and (max-width: 450px) {
-  .card__title, .card__subtitle {
+  .cardd__title, .cardd__subtitle {
     display: flex;
     margin: 0 auto;
     justify-content: center;
     margin-bottom: 20px;
   }
 
-  .card__title {
+  .cardd__title {
     margin-bottom: 13px;
   }
 
-  .card__subtitle {
+  .cardd__subtitle {
     font-size: 1rem;
     margin-left: 14px;
     margin-bottom: 30px;
@@ -132,6 +132,8 @@ body {
 .features ul li:nth-child(3) {
   margin-left: 53px;
 }
+
+
 
 .list {
   width: 90%;
@@ -175,8 +177,10 @@ body {
   border-radius: 10px;
   padding: 10px 10px;
 }
+
+
 @media screen and (max-width: 653px) {
-  .list__container .list__container ul li {
+  .list__container ul li {
     display: block;
   }
 }
