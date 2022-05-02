@@ -219,6 +219,12 @@ body {
   padding: 10px 10px;
 }
 
+@media screen and (max-width:1315px) {
+  .skill{
+    width: 100%;
+  }
+}
+
 .project {
   background-color: #510A32;
   width: 97%;
