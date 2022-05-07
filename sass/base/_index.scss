@@ -3,7 +3,8 @@
     flex-direction: column;
     width: 95%;
     padding: 40px 0px;
-    margin: 37px auto 0px auto;
+    margin: 0 auto; 
+    margin-top: 40px;
     border-radius: 20px;
     color: #fff;
     /*Gradient*/
@@ -20,8 +21,6 @@
     }
     
 }
-
-
 
 .icon-card {
     margin-right: 10px;
@@ -113,14 +112,14 @@
                 padding: 10px 10px;
             }
         }
-        @media screen and (max-width:653px){
-            .list__container ul li{
-            display: block;
-            }
-        }
     }
 }
 
+@media screen and (max-width:653px){
+    .list__container ul li{
+    display: block;
+    }
+}
 
 .skills {
     color: #fff;

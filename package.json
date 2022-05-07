@@ -1,12 +1,12 @@
 {
   "name": "portafolio-sass",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project to learn given from CoderHouse",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Lautaro Lopez",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.51.0"

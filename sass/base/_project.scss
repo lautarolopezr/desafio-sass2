@@ -26,14 +26,35 @@
         padding: 20px 15px 40px 15px;
         color: #fff;
     }
+
+    .fa-user-tie{
+        display: flex !important;
+        justify-content: center;
+        margin: 40px 0;
+        font-size: 3rem;
+        color: #fff;
+
+    }
+    .btn-color-project{
+        padding: 10px;
+        width: 100%;
+        background-color: #2d142c;
+        border: none;
+        color: #fff;
+        border-radius: 12px;
+        transition: 0.5s;
+    
+        &:hover{
+            background-color: #801336;
+        }
+
+        @media screen and (max-width:450px) {
+            .btn-color-project{
+                width: 40%;
+            }
+        }
+    }
 }
 
 
 
-.ios {
-    border-radius: 70px;
-}
-
-.twitter {
-    filter: invert(100%);
-}
