@@ -134,21 +134,53 @@
     background-color: #C72C41;
     border-radius: 15px;
     margin-bottom: 25px;
-    display: flex;
-    justify-content: center;
     /*Box Shadowing*/
     box-shadow: 46px 19px 31px 6px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 46px 19px 31px 6px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 46px 19px 31px 6px rgba(0, 0, 0, 0.75);
 }
 
+.skill__container{
+    position: relative;
+}
 
-.skill__container i{
+.skill__list{
+    overflow: hidden;
+}
+
+.carousel__anterior,
+.carousel__siguiente{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border:none;
+    top: calc(60% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background:none;
+    color: #fff;
+    opacity: 20% ;
+}
+
+.carousel__anterior{
+    left: -50px;
+
+}
+
+.carousel__siguiente{
+    right: -30px;
+}
+
+.fa-html5,.fa-css3-alt,.fa-js,
+.fa-git-alt,.fa-sass,
+.fa-npm,.fa-bootstrap{
     font-size: 120px;
     color:#fff;
-    margin:0 15px;
     padding: 15px 0;
     transition: .5s;
+    text-align: center;
 
     &:hover{
         background-color:  rgba(0, 0, 0 , .33);
@@ -156,3 +188,24 @@
         padding: 10px 10px;
     }
 }
+
+.carousel__indicadores .glider-dot{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    opacity: .2;
+    border-radius: 0;
+    transition: .3s;
+}
+
+.carousel__indicadores .glider-dot:hover{
+    opacity: .5;
+}
+
+
+.carousel__indicadores .glider-dot.active{
+    opacity: 1;
+}
+
+

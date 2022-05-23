@@ -294,7 +294,7 @@ body {
   padding: 20px 15px 40px 15px;
   color: #fff;
 }
-.project .fa-user-tie, .project .fa-shop, .project .fa-signs-post {
+.project .fa-user-tie {
   display: flex !important;
   justify-content: center;
   margin: 40px 0;
