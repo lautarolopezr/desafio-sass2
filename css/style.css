@@ -302,8 +302,10 @@ body {
   color: #fff;
 }
 .project .btn-color-project {
-  padding: 10px;
-  width: 100%;
+  display: block;
+  width: 15%;
+  margin: 0 auto;
+  padding: 0.6rem;
   background-color: #2d142c;
   border: none;
   color: #fff;
@@ -313,9 +315,9 @@ body {
 .project .btn-color-project:hover {
   background-color: #801336;
 }
-@media screen and (max-width: 450px) {
-  .project .btn-color-project .btn-color-project {
-    width: 40%;
+@media screen and (max-width: 900px) {
+  .project .btn-color-project {
+    width: 70%;
   }
 }
 
